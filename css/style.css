@@ -819,6 +819,9 @@ body {
   box-sizing: border-box;
   font-size: 18px;
   line-height: 24px;
+  background: #000;
+  color: #fff;
+  border: 0.5px solid #fff;
 }
 .realty__form {
   width: 100%;
@@ -829,8 +832,8 @@ body {
   margin-left: auto;
 }
 .realty__price {
-  background: #fff;
-  color: #000;
+  background: #000;
+  color: #fff;
   padding: 5px 10px;
   box-sizing: border-box;
   width: 110px;
@@ -842,6 +845,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border: 0.5px solid #fff;
 }
 .realty__inputs {
   display: flex;
@@ -851,17 +855,19 @@ body {
 }
 .realty__inputs input {
   padding: 5px 10px;
-  background: #fff;
+  background: #000;
   width: 50%;
   height: 32px;
   border-radius: 5px;
   font-size: 18px;
   line-height: 24px;
-  color: #000;
+  color: #fff;
+  border: 0.5px solid #fff;
 }
 input:focus::placeholder {
   color: transparent;
 }
+
 .realty__inner {
   display: flex;
   flex-direction: column;
