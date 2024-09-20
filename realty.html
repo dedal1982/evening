@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Вечерний город / Недвижимость</title>
+  </head>
+  <body>
+    <main class="page">
+      <div class="page__container page__container-portfolio">
+        <div class="page__industry industry">
+          <ul class="industry__list">
+            <li class="industry__item work">
+              <a href="#" class="industry__link">
+                <img src="images/work.svg" alt="" />Работа</a
+              >
+            </li>
+            <li class="industry__item house">
+              <a href="#" class="industry__link">
+                <img src="images/house.svg" alt="" />Недвижимость</a
+              >
+            </li>
+            <li class="industry__item house">
+              <a href="#" class="industry__link">
+                <img src="images/news.svg" alt="" />Новости</a
+              >
+            </li>
+            <li class="industry__item car">
+              <a href="news.html" class="industry__link">
+                <img src="images/car.png" alt="" />Авто</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="realty">
+        <h2 class="portfolio__title">Недвижимость</h2>
+        <div class="realty__wrapper">
+          <div class="realty__filter">
+            <form>
+              <select name="realty" id="realty">
+                <option value="">Квартира</option>
+                <option value="room">Комната</option>
+                <option value="house,cottage,cottage">Дом,дача,коттедж</option>
+                <option value="land plot">Земельный участок</option>
+                <option value="garage and parking space">
+                  Гараж и машиноместо
+                </option>
+                <option value="commercial real estate">
+                  Коммерческая недвижимость
+                </option>
+                <option value="real estate abroad">
+                  Недвижимость за рубежом
+                </option>
+              </select>
+            </form>
+
+            <form>
+              <select name="buy" id="buy">
+                <option value="">Купить</option>
+                <option value="take off">Снять</option>
+              </select>
+            </form>
+
+            <form class="realty__form">
+              <div class="realty__price">
+                Цена
+                <img
+                  class="realty__price-img"
+                  src="https://www.avito.ru/dstatic/build/assets/88d37d29533f1592.svg"
+                  alt=""
+                />
+              </div>
+              <div class="realty__inputs">
+                <input type="text" placeholder="от" />
+                <input type="text" placeholder="до" />
+              </div>
+            </form>
+          </div>
+
+          <div class="realty__inner">
+            <div class="swiper realty__swiper">
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-">
+                  <img
+                    class="realty__slide"
+                    src="https://i.pinimg.com/736x/83/e9/cb/83e9cbd947eeeee5c0c4745c6225e6d9.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="realty__slide"
+                    src="https://i.pinimg.com/originals/fa/e0/0d/fae00dad2826ba03803d0996b7d3f582.png"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    class="realty__slide"
+                    src="https://artelista.s3.amazonaws.com/obras/big/9/3/7/4193078432000258.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="realty.js"></script>
+  </body>
+</html>
