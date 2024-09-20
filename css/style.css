@@ -962,3 +962,19 @@ input:focus::placeholder {
 .realty__buttons-mail {
   background-color: rgb(0, 170, 255);
 }
+.realty__about-house {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.realty__about-house h5 {
+  font-size: 25px;
+}
+.realty__about-house li p {
+  font-size: 18px;
+  color: #b4b1b1;
+}
+.realty__about-house li p span {
+  margin-left: 10px;
+  color: #fff;
+}
