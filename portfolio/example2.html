@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вечерний город</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <div class="page__container page__container-portfolio">
+        <div class="page__industry industry">
+          <ul class="industry__list">
+            <li class="industry__item work">
+              <a href="#" class="industry__link">
+                <img src="images/work.svg" alt="" />Работа</a
+              >
+            </li>
+            <li class="industry__item house">
+              <a href="#" class="industry__link">
+                <img src="images/house.svg" alt="" />Недвижимость</a
+              >
+            </li>
+            <li class="industry__item house">
+              <a href="#" class="industry__link">
+                <img src="images/news.svg" alt="" />Новости</a
+              >
+            </li>
+            <li class="industry__item car">
+              <a href="news.html" class="industry__link">
+                <img src="images/car.png" alt="" />Авто</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="page__portfolio portfolio">
+        <h2 class="portfolio__title">Портфолио по разработке сайтов</h2>
+        <ol
+          class="portfolio__breadcrumb"
+          itemscope
+          itemtype="https://schema.org/BreadcrumbList"
+        >
+          <li
+            itemprop="itemListElement"
+            itemscope
+            itemtype="https://schema.org/ListItem"
+          >
+            <a itemprop="item" href="./index.html">
+              <span itemprop="name">Главная</span></a
+            >
+            <meta itemprop="position" content="1" />
+          </li>
+          <li
+            itemprop="itemListElement"
+            itemscope
+            itemtype="https://schema.org/ListItem"
+          >
+            <a class="active" itemprop="item" href="../portfolio.html">
+              <span itemprop="name">РАЗРАБОТКА САЙТОВ</span></a
+            >
+            <meta itemprop="position" content="2" />
+          </li>
+          <li
+            itemprop="itemListElement"
+            itemscope
+            itemtype="https://schema.org/ListItem"
+          >
+            <a class="active" itemprop="item" href="#">
+              <span itemprop="name">РАЗРАБОТКА САЙТОВ</span></a
+            >
+            <meta itemprop="position" content="3" />
+          </li>
+        </ol>
+        <div class="portfolio__block example">
+          <div class="example__img">
+            <img src="../images/sitePage/page02.png" alt="" />
+          </div>
+          <div class="example__body">
+            <div class="example__description">
+              <h3 class="example__title">Как велась работа?</h3>
+              <ul class="example__list">
+                <li>
+                  Детальный анализ исходного сайта, чтобы понять структуру,
+                  используемые технологии и ключевые элементы дизайна
+                </li>
+                <li>
+                  Воссоздание интерфейса с точным соответствием оригиналу,
+                  обеспечив адаптивность и кроссбраузерную совместимость
+                </li>
+                <li>
+                  Оптимизация сайта для быстрой загрузки, применив сжатие
+                  изображений и минимизацию кода.
+                </li>
+                <li>
+                  Реализован весь функционал, включая динамические элементы, для
+                  безупречной работы сайта
+                </li>
+                <li>Передача рабочего сайта в ваши руки.</li>
+              </ul>
+            </div>
+            <div class="example__like">
+              <h3 class="example__title">
+                Понравилось?
+                <br />
+                Закажите подобное решение
+              </h3>
+              <a href="#" class="example__link">Написать нам</a>
+            </div>
+          </div>
+        </div>
+        <div class="example__code">
+          <img src="../images/sitePage/code02.jpg" alt="" />
+        </div>
+      </div>
+    </main>
+
+    <script src="js/city.js"></script>
+  </body>
+</html>
