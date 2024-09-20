@@ -1,10 +1,11 @@
 const swiperRealty = new Swiper(".realty__swiper", {
   // Optional parameters
   direction: "horizontal",
-  loop: true,
+  loop: false,
 
   // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });

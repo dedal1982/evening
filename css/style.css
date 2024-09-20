@@ -889,6 +889,19 @@ input:focus::placeholder {
 .swiper-pagination-bullet {
   background: #fff;
 }
+.realty__prev,
+.realty__next {
+  width: 50px;
+  height: 50px;
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+  border: 0.5px solid #fff;
+}
+.realty__prev::after,
+.realty__next::after {
+  font-size: 14px;
+}
 .realty__item {
   display: flex;
   flex-direction: column;
