@@ -1072,17 +1072,100 @@ input:focus::placeholder {
 .job-openings__inner {
   display: flex;
   flex-direction: column;
+  padding: 10px 15px;
+  background: #80808054;
+  border-radius: 5px;
 }
 .job-openings__title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.job-openings__title h3 {
   font-size: 25px;
+}
+.job-openings__title-img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.job-openings__title-img {
+  fill: #fff;
+}
+.job-openings__title-img.active {
+  fill: red;
 }
 .job-openings__salary {
   width: fit-content;
-  padding: 5px;
+  padding: 3px 10px;
   display: block;
   background: #0af;
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.04rem;
   margin-top: 10px;
+}
+.job-openings__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+.job-openings__btns {
+  padding: 0 13px;
+  height: 32px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  margin-top: 10px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.job-openings__desc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+.job-openings__desc h4 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #0af;
+}
+.job-openings__paragraph {
+  width: 100%;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.job-openings__info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 20px;
+}
+.job-openings__info p,
+.job-openings__info span {
+  color: gray;
+}
+.job-openings__mail {
+  color: #fff;
+}
+.tel-visible {
+  display: block;
+}
+.tel-visible.active {
+  display: none;
+}
+.tel-hidden {
+  display: none;
+}
+.tel-hidden.active {
+  display: block;
+}
+.job-openings__tel {
+  width: 170px;
 }
