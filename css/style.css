@@ -797,6 +797,9 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
 }
 .realty__wrapper {
   width: 100%;
@@ -812,7 +815,14 @@ body {
   align-items: center;
   gap: 12px;
 }
-
+@media (max-width: 767px) {
+  .realty__filter {
+    flex-wrap: wrap;
+  }
+  .realty__filter form {
+    width: 100%;
+  }
+}
 .realty__filter select {
   border-radius: 5px;
   padding: 5px 10px;
@@ -822,6 +832,11 @@ body {
   background: #000;
   color: #fff;
   border: 0.5px solid #fff;
+}
+@media (max-width: 767px) {
+  .realty__filter select {
+    width: 100%;
+  }
 }
 .realty__form {
   width: 100%;
@@ -853,6 +868,11 @@ body {
   gap: 5px;
   border-radius: 5px;
 }
+@media (max-width: 767px) {
+  .realty__inputs {
+    width: 100%;
+  }
+}
 .realty__inputs input {
   padding: 5px 10px;
   background: #000;
@@ -877,9 +897,19 @@ input:focus::placeholder {
   width: 100%;
   height: 500px;
 }
+@media (max-width: 767px) {
+  .realty__swiper {
+    height: 300px;
+  }
+}
 .swiper-slide {
   width: 100%;
   height: 450px;
+}
+@media (max-width: 767px) {
+  .swiper-slide {
+    height: 300px;
+  }
 }
 .realty__slide {
   width: 100%;
@@ -898,6 +928,14 @@ input:focus::placeholder {
   border-radius: 50%;
   border: 0.5px solid #fff;
 }
+@media (max-width: 767px) {
+  .realty__prev,
+  .realty__next {
+    width: 30px;
+    height: 30px;
+  }
+}
+
 .realty__prev::after,
 .realty__next::after {
   font-size: 14px;
@@ -906,6 +944,11 @@ input:focus::placeholder {
   display: flex;
   flex-direction: column;
   gap: 50px;
+}
+@media (max-width: 767px) {
+  .realty__item {
+    margin-top: 30px;
+  }
 }
 .realty__top {
   display: flex;
@@ -936,6 +979,13 @@ input:focus::placeholder {
 .realty__description::-webkit-scrollbar {
   width: 0;
 }
+@media (max-width: 767px) {
+  .realty__description {
+    padding: 5px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
 .realty__buttons {
   width: 100%;
   display: flex;
@@ -955,6 +1005,15 @@ input:focus::placeholder {
 }
 .realty__buttons a:hover {
   filter: contrast(250%);
+}
+@media (max-width: 767px) {
+  .realty__buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .realty__buttons a {
+    width: 100%;
+  }
 }
 .realty__buttons-tel {
   background-color: rgb(2, 209, 92);
@@ -977,4 +1036,17 @@ input:focus::placeholder {
 .realty__about-house li p span {
   margin-left: 10px;
   color: #fff;
+}
+.realty__box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.realty__btn {
+  width: 161px;
+  height: 32px;
+  border-radius: 5px;
+  background: #fff;
+  align-self: flex-end;
+  color: #000;
 }
