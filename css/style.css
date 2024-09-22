@@ -1163,3 +1163,10 @@ input:focus::placeholder {
 .job-openings__tel {
   width: 170px;
 }
+.job-openings__top {
+  display: flex;
+  flex-direction: column;
+}
+.job-openings__top h3 {
+  font-size: 30px;
+}
