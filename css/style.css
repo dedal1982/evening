@@ -1050,3 +1050,39 @@ input:focus::placeholder {
   align-self: flex-end;
   color: #000;
 }
+/*---work-block---*/
+.job-openings {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+.job-openings__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  gap: 50px;
+}
+.job-openings__inner {
+  display: flex;
+  flex-direction: column;
+}
+.job-openings__title {
+  font-size: 25px;
+}
+.job-openings__salary {
+  width: fit-content;
+  padding: 5px;
+  display: block;
+  background: #0af;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.04rem;
+  margin-top: 10px;
+}
