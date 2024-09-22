@@ -797,9 +797,6 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  padding-left: 15px;
-  padding-right: 15px;
-  box-sizing: border-box;
 }
 .realty__wrapper {
   width: 100%;
@@ -1057,9 +1054,6 @@ input:focus::placeholder {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  padding-left: 15px;
-  padding-right: 15px;
-  box-sizing: border-box;
 }
 .job-openings__wrapper {
   width: 100%;
@@ -1094,7 +1088,7 @@ input:focus::placeholder {
   fill: #fff;
 }
 .job-openings__title-img.active {
-  fill: red;
+  fill: #0af;
 }
 .job-openings__salary {
   width: fit-content;
