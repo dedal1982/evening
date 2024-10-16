@@ -38,21 +38,91 @@
       <div class="news">
         <div class="news__nav">
           <ul class="news__nav-list">
-            <li><a href="#">Главное</a></li>
-            <li><a href="#">Политика</a></li>
-            <li><a href="#">Общество</a></li>
-            <li><a href="#">Экономика</a></li>
-            <li><a href="#">Происшествия</a></li>
-            <li><a href="#">В мире</a></li>
-            <li><a href="#">Культура</a></li>
-            <li><a href="#">Шоу-Бизнес</a></li>
-            <li><a href="#">Наука</a></li>
-            <li><a href="#">Спорт</a></li>
+            <li id="n-main" class="active"><a href="#">Главное</a></li>
+            <li id="n-politics"><a href="#">Политика</a></li>
+            <li id="n-economy"><a href="#">Экономика</a></li>
+            <li id="n-incidents"><a href="#">Происшествия</a></li>
+            <li id="n-inTheWorld"><a href="#">В мире</a></li>
+            <li id="n-theScience"><a href="#">Наука</a></li>
+            <li id="n-sport"><a href="#">Спорт</a></li>
           </ul>
         </div>
         <!--контейнер раздела новости-->
-        <div il="n-main" class="news__container">
+        <div id="n-main" class="news__container">
           <h2 class="news__title">Главное</h2>
+          <!--новость-->
+          <div class="news__container-inner">
+            <img
+              class="news__container-image"
+              src="https://www.kino-teatr.ru/news/18739/168477.jpg"
+              alt=""
+            />
+
+            <div class="news__container-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero,
+              assumenda neque! Similique sequi doloribus officiis quam atque
+              soluta a commodi hic dolore sunt. Quod minima delectus aspernatur
+              praesentium animi! Eaque enim impedit fugit incidunt aspernatur
+              beatae neque ad, nemo amet consequuntur? Animi asperiores illo sit
+              quisquam excepturi explicabo quaerat expedita odio reiciendis.
+              Dignissimos, vel. Id iusto laboriosam libero, facere quod sunt,
+              iure debitis voluptate dolor praesentium quis. Molestias ipsa
+              optio enim quos sequi beatae deserunt quae atque quis nobis
+              voluptas minus provident, quo dolorem eos. Et qui fugit quos nemo,
+              architecto incidunt. Facilis non doloribus distinctio quibusdam
+              libero non, unde voluptate mollitia excepturi adipisci optio
+              quaerat.
+            </div>
+          </div>
+          <!--новость-->
+          <div class="news__container-inner">
+            <img
+              class="news__container-image"
+              src="https://www.kino-teatr.ru/news/18739/168477.jpg"
+              alt=""
+            />
+
+            <div class="news__container-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero,
+              assumenda neque! Similique sequi doloribus officiis quam atque
+              soluta a commodi hic dolore sunt. Quod minima delectus aspernatur
+              praesentium animi! Eaque enim impedit fugit incidunt aspernatur
+              beatae neque ad, nemo amet consequuntur? Animi asperiores illo sit
+              quisquam excepturi explicabo quaerat expedita odio reiciendis.
+              Dignissimos, vel. Id iusto laboriosam libero, facere quod sunt,
+              iure debitis voluptate dolor praesentium quis. Molestias ipsa
+              optio enim quos sequi beatae deserunt quae atque quis nobis
+              voluptas minus provident, quo dolorem eos. Et qui fugit quos nemo,
+              architecto incidunt. Facilis non doloribus distinctio quibusdam
+              libero non, unde voluptate mollitia excepturi adipisci optio
+              quaerat.
+            </div>
+          </div>
+          <!--новость-->
+          <div class="news__container-inner">
+            <img
+              class="news__container-image"
+              src="https://www.kino-teatr.ru/news/18739/168477.jpg"
+              alt=""
+            />
+
+            <div class="news__container-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero,
+              assumenda neque! Similique sequi doloribus officiis quam atque
+              soluta a commodi hic dolore sunt. Quod minima delectus aspernatur
+              praesentium animi! Eaque enim impedit fugit incidunt aspernatur
+              beatae neque ad, nemo amet consequuntur? Animi asperiores illo sit
+              quisquam excepturi explicabo quaerat expedita odio reiciendis.
+              Dignissimos, vel. Id iusto laboriosam libero, facere quod sunt,
+              iure debitis voluptate dolor praesentium quis. Molestias ipsa
+              optio enim quos sequi beatae deserunt quae atque quis nobis
+              voluptas minus provident, quo dolorem eos. Et qui fugit quos nemo,
+              architecto incidunt. Facilis non doloribus distinctio quibusdam
+              libero non, unde voluptate mollitia excepturi adipisci optio
+              quaerat.
+            </div>
+          </div>
+          <!--новость-->
           <div class="news__container-inner">
             <img
               class="news__container-image"
@@ -78,7 +148,11 @@
           </div>
         </div>
       </div>
+      <div class="news-popup">
+        <img class="news-popup-close" src="./images/close.svg" alt="close" />
+        <div class="news-popup-inner"></div>
+      </div>
     </main>
-    <script src="job-openings.js"></script>
+    <script src="news.js"></script>
   </body>
 </html>
