@@ -22,7 +22,6 @@ const newsNavList = document.querySelectorAll(".news__nav-list li");
 
 if (newsNavList) {
   newsNavList.forEach((item) => {
-    const newsNavListId = item.id;
     item.addEventListener("click", () => {
       newsNavList.forEach((elem) => {
         elem.classList.remove("active");
