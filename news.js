@@ -2,6 +2,7 @@ const newsPopup = document.querySelector(".news-popup");
 const newsPopupClose = document.querySelector(".news-popup-close");
 const newsPopupInner = document.querySelector(".news-popup-inner");
 const newsContainerInner = document.querySelectorAll(".news__container-inner");
+const pageNews = document.querySelector(".page");
 
 if (newsContainerInner) {
   newsContainerInner.forEach((item) => {
@@ -9,12 +10,14 @@ if (newsContainerInner) {
     newsElement.addEventListener("click", () => {
       newsPopup.classList.add("active");
       newsPopupInner.textContent = newsElement.textContent;
+      pageNews.classList.add("active");
     });
   });
 }
 if (newsPopupClose) {
   newsPopupClose.addEventListener("click", () => {
     newsPopup.classList.remove("active");
+    pageNews.classList.remove("active");
   });
 }
 //перебор кнопок навигации
