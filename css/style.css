@@ -1214,10 +1214,13 @@ input:focus::placeholder {
 }
 .news__container {
   width: 100%;
-  display: flex;
+  display: none;
   flex-direction: column;
   margin-top: 50px;
   margin-bottom: 100px;
+}
+.news__container.active {
+  display: flex;
 }
 .news__container-inner {
   display: flex;
