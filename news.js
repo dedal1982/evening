@@ -62,5 +62,5 @@ const makeCodeUniversal = (
   };
   tabItems.forEach(chekTab);
 };
-// /*табы / секция Наши реализованные проекты*/
+
 makeCodeUniversal(".news__nav-list li", ".news__container");
